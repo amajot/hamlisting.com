@@ -1,0 +1,140 @@
+/*
+A Bootstrap 3.1 affix sidebar template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+.vspan {
+    display: table-cell;
+    float: none;
+    vertical-align: middle;
+}
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+
+
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a, .navbar-default .navbar-text {
+  color: #000;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover  {
+  background-color:transparent;
+  color:#fff;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  background-color:transparent;
+  color:#fff;
+}
+
+.navbar-default {
+  background-color: #6CB9C4;
+  border-color: #CCE5FF;
+}
+
+body {
+ padding-top:50px;
+ padding-bottom: 70px;
+}
+
+#masthead { 
+ min-height:250px;
+ background-color: #4CA5FF;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:30px;
+    width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+.navbar-brand {
+  font-size:30px;
+}
+
+.navbar-nav {
+  font-size:22px;
+}
+
+.navbar-fixed-bottom{
+  background-color: #fff;
+}
+
+.bootstrap-validator-form .help-block {
+  margin-bottom: 0; }
